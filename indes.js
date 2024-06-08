@@ -180,6 +180,9 @@ function resultPage() {
       
        div.forEach((element)=>{
            if(element.textContent==finalAns)
+           {
             element.style.backgroundColor="lightgreen"
+            element.style.color="black"
+           }
        })
   }
