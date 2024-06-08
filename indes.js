@@ -159,7 +159,7 @@ function resultPage() {
     
           if(ans==finalAns)
             {
-              e.target.style.backgroundColor="green"
+              e.target.style.backgroundColor="lightgreen"
               score++;
             }
         else 
@@ -180,6 +180,6 @@ function resultPage() {
       
        div.forEach((element)=>{
            if(element.textContent==finalAns)
-            element.style.backgroundColor="green"
+            element.style.backgroundColor="lightgreen"
        })
   }
