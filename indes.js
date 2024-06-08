@@ -115,7 +115,7 @@ function resultPage() {
       result.removeChild(result.firstChild);
     }
   
-    result.classList.add("min-h-fit","p-6", "rounded-xl","bg-white","text-xl","w-[40%]")
+    result.classList.add("min-h-fit","p-6", "rounded-xl","bg-white","text-xl")
   
     let flexContainer = document.createElement("div");
     flexContainer.classList.add("flex","flex-col","items-center"); // Add flex class to the container
