@@ -135,6 +135,7 @@ function resultPage() {
   
     button.addEventListener("click", () => {
       quesIndex = 0;
+      score=0;
       result.style.display = "none";
       document.querySelector(".container").style.display = "block";
       startQuiz();
