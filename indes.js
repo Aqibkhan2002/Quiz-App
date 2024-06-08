@@ -144,7 +144,13 @@ function resultPage() {
   options.addEventListener("click",checkAns)
 
   function checkAns(e){
-    
+
+     if(e.target.classList.contains("options"))
+     {
+
+     }
+    else
+     {
      btn.style.display="block"
     let currQues=question[quesIndex]
     let ans=e.target.textContent;
@@ -165,6 +171,7 @@ function resultPage() {
            
   
              quesIndex++
+    }
   }
 
   function giveCorrect(finalAns){
